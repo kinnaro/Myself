@@ -27,7 +27,7 @@ def txt2xls(filename,xlsname):  #文本转换成xls的函数，filename 表示�
         x += 1 #另起一行
         y = 0  #初始成第一列
     f.close()
-    xls.save("S:\\MIT相关文件\\MIT数据采样点\\SamplePoint\Excel\\" + xlsname+'.xls') #保存
+    xls.save("S:\\MIT相关文件\\MIT数据采样点\\SamplePoint\Excel\\" + xlsname+'111111.xls') #保存
 
 '''
 def xls_to_csv_pd():
